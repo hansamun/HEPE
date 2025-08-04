@@ -1,7 +1,7 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import { Download, Share2, Menu } from "lucide-react"
+import { Download, Share2, Menu, ChevronDown } from "lucide-react"
 import Image from "next/image"
 
 export default function HomePage() {
@@ -99,6 +99,14 @@ export default function HomePage() {
             >
               CHART
             </Button>
+          </div>
+
+          {/* Scroll Down Animation */}
+          <div className="mt-12 md:mt-16 flex flex-col items-center">
+            <div className="animate-bounce">
+              <ChevronDown className="w-8 h-8 md:w-10 md:h-10 text-white opacity-70" />
+            </div>
+            <p className="text-white text-sm mt-2 opacity-70">Scroll Down</p>
           </div>
         </div>
       </section>
@@ -665,11 +673,6 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="relative z-10 text-center py-6 md:py-8 px-4 md:px-6">
-        <p className="text-white text-sm md:text-base">Copyright © 2025 $FAPE | All Rights Reserved!</p>
-      </footer>
     </div>
   )
 }
