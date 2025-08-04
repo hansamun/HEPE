@@ -173,7 +173,7 @@ export default function HomePage() {
                   <h3 className="text-white text-xl md:text-2xl font-bold mb-2">Go to Ape Store</h3>
                   <p className="text-white text-sm md:text-base">
                     Go to ape.store and connect your wallet. Paste the $FAPE token contract address into Ape Store,
-                    select $FAPE and confirm. $FAPE contract address on Base: 0x742d35Cc6634C0532925a3b8D400B41e7c3f909b
+                    select $FAPE and confirm. $FAPE contract address on Base: COMING SOON
                   </p>
                 </div>
               </CardContent>
