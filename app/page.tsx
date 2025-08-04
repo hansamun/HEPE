@@ -287,20 +287,20 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* Meme Card 2 - Rocket */}
+            {/* Meme Card 2 - Beach Sunset */}
             <Card className="bg-black/40 border-blue-500/30 backdrop-blur-sm group hover:scale-105 transition-transform">
               <CardContent className="p-3 md:p-4">
                 <div className="aspect-square rounded-lg mb-4 overflow-hidden">
                   <Image
-                    src="/images/memes/hepe-rocket.jpeg"
-                    alt="Father Pepe To The Moon"
+                    src="/images/memes/hepe-beach-sunset.jpeg"
+                    alt="Father Pepe Beach Sunset"
                     width={400}
                     height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-white font-bold text-base md:text-lg mb-2">To The Moon!</h3>
-                <p className="text-white text-xs md:text-sm mb-4">Father Pepe leading the space mission</p>
+                <h3 className="text-white font-bold text-base md:text-lg mb-2">Beach Wisdom</h3>
+                <p className="text-white text-xs md:text-sm mb-4">Father Pepe enjoying sunset vibes</p>
                 <div className="flex space-x-2">
                   <Button size="sm" className="bg-blue-500 hover:bg-blue-600 text-white text-xs">
                     <Download className="w-3 h-3 md:w-4 md:h-4 mr-1" />
@@ -566,20 +566,20 @@ export default function HomePage() {
               </CardContent>
             </Card>
 
-            {/* Meme Card 11 - Moon Flag */}
+            {/* Meme Card 11 - Mystical Powers */}
             <Card className="bg-black/40 border-blue-500/30 backdrop-blur-sm group hover:scale-105 transition-transform">
               <CardContent className="p-3 md:p-4">
                 <div className="aspect-square rounded-lg mb-4 overflow-hidden">
                   <Image
-                    src="/images/memes/hepe-moon-flag.jpeg"
-                    alt="Father Pepe Moon Flag"
+                    src="/images/memes/hepe-mystical.jpeg"
+                    alt="Father Pepe Mystical Powers"
                     width={400}
                     height={400}
                     className="w-full h-full object-cover"
                   />
                 </div>
-                <h3 className="text-white font-bold text-base md:text-lg mb-2">Moon Conqueror</h3>
-                <p className="text-white text-xs md:text-sm mb-4">Father Pepe claims the moon for $FAPE</p>
+                <h3 className="text-white font-bold text-base md:text-lg mb-2">Mystical Powers</h3>
+                <p className="text-white text-xs md:text-sm mb-4">Father Pepe's wisdom transcends reality</p>
                 <div className="flex space-x-2">
                   <Button size="sm" className="bg-blue-500 hover:bg-blue-600 text-white text-xs">
                     <Download className="w-3 h-3 md:w-4 md:h-4 mr-1" />
