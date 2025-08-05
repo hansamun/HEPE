@@ -54,9 +54,15 @@ export default function HomePage() {
         </div>
 
         {/* Buy Button */}
-        <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-4 py-2 md:px-6 md:py-2 rounded-full text-sm md:text-base shadow-lg">
-          Buy $FAPE
-        </Button>
+        <Link
+          href="https://ape.store/base/0x334bcd50073080227ff7e601556b3bc231edaaf4"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-4 py-2 md:px-6 md:py-2 rounded-full text-sm md:text-base shadow-lg">
+            Buy $FAPE
+          </Button>
+        </Link>
       </header>
 
       {/* Mobile Navigation Menu */}
@@ -90,15 +96,27 @@ export default function HomePage() {
             knowledge to guide the next generation.
           </p>
           <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4 px-4">
-            <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 md:px-8 md:py-3 rounded-full text-base md:text-lg">
-              BUY $FAPE
-            </Button>
-            <Button
-              variant="outline"
-              className="border-white text-white hover:bg-white hover:text-black px-6 py-3 md:px-8 md:py-3 rounded-full text-base md:text-lg bg-transparent"
+            <Link
+              href="https://ape.store/base/0x334bcd50073080227ff7e601556b3bc231edaaf4"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              CHART
-            </Button>
+              <Button className="bg-blue-500 hover:bg-blue-600 text-white font-bold px-6 py-3 md:px-8 md:py-3 rounded-full text-base md:text-lg">
+                BUY $FAPE
+              </Button>
+            </Link>
+            <Link
+              href="https://dexscreener.com/base/0xCb5ca4b2483DB341f504Eb9716839fd973B59a72"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button
+                variant="outline"
+                className="border-white text-white hover:bg-white hover:text-black px-6 py-3 md:px-8 md:py-3 rounded-full text-base md:text-lg bg-transparent"
+              >
+                CHART
+              </Button>
+            </Link>
           </div>
 
           {/* Scroll Down Animation */}
