@@ -646,30 +646,34 @@ export default function HomePage() {
           <h3 className="text-white text-4xl md:text-5xl font-bold mb-8">COMMUNITY</h3>
 
           <div className="flex justify-center space-x-4 md:space-x-6">
-            <Button
-              size="lg"
-              className="bg-blue-400 hover:bg-blue-500 text-white rounded-full w-12 h-12 md:w-16 md:h-16 p-0 flex items-center justify-center"
-            >
-              <Image
-                src="/images/x-icon.png"
-                alt="X (Twitter)"
-                width={24}
-                height={24}
-                className="w-6 h-6 md:w-8 md:h-8 object-contain"
-              />
-            </Button>
-            <Button
-              size="lg"
-              className="bg-blue-400 hover:bg-blue-500 text-white rounded-full w-12 h-12 md:w-16 md:h-16 p-0 flex items-center justify-center"
-            >
-              <Image
-                src="/images/telegram-icon.png"
-                alt="Telegram"
-                width={24}
-                height={24}
-                className="w-6 h-6 md:w-8 md:h-8 object-contain"
-              />
-            </Button>
+            <Link href="https://x.com/BasedFape" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                className="bg-blue-400 hover:bg-blue-500 text-white rounded-full w-12 h-12 md:w-16 md:h-16 p-0 flex items-center justify-center"
+              >
+                <Image
+                  src="/images/x-icon.png"
+                  alt="X (Twitter)"
+                  width={24}
+                  height={24}
+                  className="w-6 h-6 md:w-8 md:h-8 object-contain"
+                />
+              </Button>
+            </Link>
+            <Link href="https://t.me/basedfape" target="_blank" rel="noopener noreferrer">
+              <Button
+                size="lg"
+                className="bg-blue-400 hover:bg-blue-500 text-white rounded-full w-12 h-12 md:w-16 md:h-16 p-0 flex items-center justify-center"
+              >
+                <Image
+                  src="/images/telegram-icon.png"
+                  alt="Telegram"
+                  width={24}
+                  height={24}
+                  className="w-6 h-6 md:w-8 md:h-8 object-contain"
+                />
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
